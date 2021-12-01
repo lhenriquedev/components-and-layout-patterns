@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hero Component</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+      /* ------------------------ */
+      /* GENERAL STYLES */
+      /* ------------------------ */
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      header {
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url("hero.jpg");
+        background-size: cover;
+        color: #f6f6f6;
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+      }
+
+      .header-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .header-container-inner {
+        width: 50%;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+        letter-spacing: -1px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+
+      .btn:hover,
+      .btn:active {
+        opacity: 0.9;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        background-color: #f7f7f7;
+        padding: 96px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>LOGO</div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="header-container container">
+        <div class="header-container-inner">
+          <h1>A healty meal delivered to your door, every single day.</h1>
+          <p>
+            The smart 365-days-per-year food subscription that will make you eat
+            healty algain. Tailored to your personal tastes and nutritional
+            needs
+          </p>
+
+          <a href="#" class="btn">Start eating well</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Some heading text</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          minima culpa blanditiis quas, consequuntur, corrupti molestias
+          voluptas fugit accusamus et aut veniam hic fuga obcaecati sequi
+          consectetur enim voluptates deserunt. Odit, pariatur, blanditiis quasi
+          sed corporis perferendis in dignissimos doloribus dolor rerum
+          cupiditate. Nostrum, voluptatibus aspernatur ab neque temporibus sit
+          quibusdam voluptate culpa sapiente animi, quam delectus, ipsum dolorem
+          officiis. Fugit saepe optio voluptate sunt ducimus! Ea est blanditiis
+          impedit incidunt omnis! Illo nulla dolorem atque fugit at et dolor
+          ipsa, eum a animi officiis iure deleniti eligendi nihil. Sequi? Eum,
+          harum! Nisi, optio qui! Exercitationem, animi nemo enim ab ducimus
+          quis soluta error iure accusamus praesentium sint repellendus esse
+          explicabo consequuntur tempore? Quos saepe obcaecati cupiditate
+          exercitationem ad soluta. Facilis, minus, recusandae saepe vitae neque
+          eaque numquam illum dignissimos adipisci hic voluptates quia sequi
+          provident mollitia eligendi nam, exercitationem officia? Repudiandae
+          nemo, porro harum hic asperiores doloribus eveniet mollitia.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
